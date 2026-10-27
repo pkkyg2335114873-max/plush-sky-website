@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8e8db">
+  <meta name="description" content="在梦幻毛绒天空乐园，轻触太阳、云朵、水滴和星星，收获一点软绵绵的快乐。">
+  <title>梦幻毛绒天空乐园 · Plush Sky</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="sky" aria-label="梦幻毛绒天空乐园">
+    <div class="sky-backdrop" data-depth="8" aria-hidden="true">
+      <img src="assets/background-sky.png" alt="" fetchpriority="high" draggable="false">
+    </div>
+    <div class="sky-wash" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="毛绒天空乐园首页"><span class="brand-mark" aria-hidden="true">✳</span> PLUSH SKY<span class="brand-divider"></span><span class="brand-cn">毛绒天空</span></a>
+      <span class="weather"><i aria-hidden="true"></i> 今日天气：软乎乎</span>
+    </header>
+
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow"><span></span> A LITTLE SOFTNESS, A LITTLE JOY <span></span></p>
+      <h1 id="page-title">把心事放轻，<br>来天空里<span class="title-accent">发个呆。</span></h1>
+      <p class="intro-copy">欢迎来到梦幻毛绒天空乐园<br class="mobile-break"> · 这里的快乐，软绵绵</p>
+    </section>
+
+    <div class="decor decor-rainbow" aria-hidden="true"><div class="parallax" data-depth="14"><div class="float float-slow"><img src="assets/decor-rainbow.png" alt="" draggable="false"></div></div></div>
+    <div class="decor decor-cloud" aria-hidden="true"><div class="parallax" data-depth="11"><div class="float"><img src="assets/decor-cloud.png" alt="" draggable="false"></div></div></div>
+    <div class="decor decor-star-one" aria-hidden="true"><div class="parallax" data-depth="20"><div class="float float-slow"><img src="assets/decor-star.png" alt="" draggable="false"></div></div></div>
+    <div class="decor decor-star-two" aria-hidden="true"><div class="parallax" data-depth="12"><div class="float"><img src="assets/decor-star.png" alt="" draggable="false"></div></div></div>
+    <div class="decor decor-flower" aria-hidden="true"><div class="parallax" data-depth="34"><div class="float float-slow"><img src="assets/decor-flower.png" alt="" draggable="false"></div></div></div>
+    <div class="sparkle sparkle-one" aria-hidden="true">✧</div><div class="sparkle sparkle-two" aria-hidden="true">✧</div><div class="sparkle sparkle-three" aria-hidden="true">+</div>
+
+    <div class="toy-anchor sun" data-character="sun">
+      <div class="parallax" data-depth="28"><div class="float">
+        <button class="toy-button" type="button" aria-label="轻触太阳，让它弹跳两次" data-name="小太阳">
+          <span class="bounce"><img src="assets/character-sun.png" alt="奶油黄色太阳毛绒玩偶" draggable="false" fetchpriority="high"></span>
+        </button>
+        <span class="toy-note">今天也要暖暖的 <span>☀</span></span>
+      </div></div>
+    </div>
+    <div class="toy-anchor cloud" data-character="cloud">
+      <div class="parallax" data-depth="21"><div class="float">
+        <button class="toy-button" type="button" aria-label="轻触云朵，让它弹跳两次" data-name="小云朵">
+          <span class="bounce"><img src="assets/character-cloud.png" alt="奶白色害羞云朵毛绒玩偶" draggable="false"></span>
+        </button>
+        <span class="toy-note">慢一点，也没关系</span>
+      </div></div>
+    </div>
+    <div class="toy-anchor droplet" data-character="droplet">
+      <div class="parallax" data-depth="40"><div class="float">
+        <button class="toy-button" type="button" aria-label="轻触水滴，让它弹跳两次" data-name="小水滴">
+          <span class="bounce"><img src="assets/character-droplet.png" alt="浅蓝色水滴毛绒玩偶" draggable="false"></span>
+        </button>
+      </div></div>
+    </div>
+    <div class="toy-anchor star" data-character="star">
+      <div class="parallax" data-depth="34"><div class="float">
+        <button class="toy-button" type="button" aria-label="轻触星星，让它弹跳两次" data-name="小星星">
+          <span class="bounce"><img src="assets/character-star.png" alt="蜂蜜金色星星毛绒玩偶" draggable="false"></span>
+        </button>
+      </div></div>
+    </div>
+
+    <footer class="scene-footer">
+      <div class="interaction-hint"><span class="hint-icon" aria-hidden="true">↗</span><span class="desktop-hint">移动鼠标，吹一阵轻风</span><span class="touch-hint">指尖轻移，吹一阵轻风</span><span class="hint-divider"></span><span>轻触玩偶，收获双倍 Q 弹</span></div>
+      <p class="footer-note">留一点时间，给柔软的小事 <span aria-hidden="true">♡</span></p>
+    </footer>
+    <p class="sr-only" id="announcement" aria-live="polite"></p>
+  </main>
+</body>
+</html>
